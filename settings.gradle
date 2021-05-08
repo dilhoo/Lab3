@@ -1,0 +1,10 @@
+rootProject.name = 'lab3'
+include 'vehicle-model'
+include 'vehicle-ejb'
+include 'vehicle-web'
+include 'eureka'
+include 'shop'
+include 'eureka-client'
+include 'zuul'
+include 'ssl-utils'
+

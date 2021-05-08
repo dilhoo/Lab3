@@ -1,0 +1,24 @@
+plugins {
+    id 'java'
+    id 'war'
+}
+
+group 'soa'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(":eureka-client")
+    implementation project(":vehicle-model")
+    compileOnly "com.netflix.eureka:eureka-client:1.10.13"
+    providedCompile "org.jboss.resteasy:resteasy-jaxrs:3.12.1.Final"
+    providedCompile "javax:javaee-api:8.0"
+}
+
+war {
+    archiveName "vehicle-web.war"
+    duplicatesStrategy = "exclude"
+}

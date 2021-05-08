@@ -1,0 +1,9 @@
+.gradle
+/build
+start-eureka
+start-zuul
+update
+create
+data.json
+delete
+result.html

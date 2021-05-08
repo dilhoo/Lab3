@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence" version="1.0">
+    <persistence-unit name="default" transaction-type="JTA">
+
+        <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+
+        <jta-data-source>java:/PostgresDS</jta-data-source>
+
+        <class>lab3.model.Vehicle</class>
+        <class>lab3.model.Coordinates</class>
+
+        <properties>
+            <property name="hibernate.hbm2ddl.auto" value="update"/>
+        </properties>
+    </persistence-unit>
+</persistence>

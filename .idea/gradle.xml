@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/eureka" />
+            <option value="$PROJECT_DIR$/eureka-client" />
+            <option value="$PROJECT_DIR$/shop" />
+            <option value="$PROJECT_DIR$/ssl-utils" />
+            <option value="$PROJECT_DIR$/vehicle-ejb" />
+            <option value="$PROJECT_DIR$/vehicle-model" />
+            <option value="$PROJECT_DIR$/vehicle-web" />
+            <option value="$PROJECT_DIR$/zuul" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,14 @@
+plugins {
+    id 'java'
+}
+
+group 'soa'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly "javax.persistence:javax.persistence-api:2.2"
+}
